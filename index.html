@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Lista de Tarefas</h1>
+        </header>
+        <form class="botao-inserir">
+            <input type="text" id="listagem" required placeholder="Liste suas tarefas">
+            <button type="submit" id="inserir">Inserir tarefas</button>
+        </form>
+        <div id="lista-tarefas">
+            <form class="lista-tarefas">
+                <ul id="campo">
+                </ul>
+            </form>
+            <form class="reset">
+                <button onclick="window.location.reload()" id="reset" type="reset">Limpar</button>
+            </form>
+        </div>
+        <footer>
+            Projeto by Fernando Silva
+        </footer>
+    </div>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

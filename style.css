@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header, .lista-tarefas, .botao-inserir, .reset, footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(77, 77, 219);
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    max-width: 712px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header H1 {
+    font-size: 48px;
+    padding: 16px;
+}
+
+.botao-inserir {
+    background-color: rgb(224, 84, 65);
+    padding: 8px;
+}
+
+form input {
+    font-size: 20px;
+    background-color: #4e3030;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-right: 12px;
+}
+
+form button {
+    background-color: green;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#lista-tarefas {
+    display: none;
+}
+
+ul li, label {
+    list-style: none;
+    font-size: 24px;
+}
+
+input:checked + label {
+text-decoration: line-through;
+font-style: italic;
+}
+
+.lista-tarefas {
+    background-color: #7e7e7e;
+    padding: 8px;
+}
+
+.lista-tarefas li {
+    font-size: 24px;
+    color: #000000;
+}
+
+.botao-inserir input {
+    padding: 8px;
+}
+
+.reset button {
+    background-color: red;
+}
+
+.reset {
+    background-color: rgb(224, 84, 65);
+    padding: 8px;
+}
+
+footer {
+    background-color: rgb(77, 77, 219);
+    padding: 16px;
+}
